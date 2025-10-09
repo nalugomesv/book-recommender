@@ -1,0 +1,23 @@
+﻿# Segredos
+.env
+!.env.example
+
+# Dados (CSV local)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE / SO
+.vscode/
+.DS_Store
+Thumbs.db
