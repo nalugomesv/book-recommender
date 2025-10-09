@@ -1,0 +1,45 @@
+﻿# Segredos / ambiente
+.env
+*.env
+!.env.example
+
+# Dados e artefatos
+data/
+outputs/
+models/
+reports/
+
+# Python / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Ferramentas / testes
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Outros
+*.swp
+*.swo
