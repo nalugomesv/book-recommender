@@ -1,20 +1,13 @@
-﻿# Segredos / ambiente
+# Segredos
 .env
-*.env
 !.env.example
 
-# Dados e artefatos
+# Dados (CSV local)
 data/
-outputs/
-models/
-reports/
 
-# Python / build
+# Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-build/
-dist/
 
 # Ambientes virtuais
 .venv/
@@ -24,22 +17,7 @@ env/
 # Notebooks
 .ipynb_checkpoints/
 
-# Ferramentas / testes
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-coverage.xml
-
 # IDE / SO
 .vscode/
-.idea/
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Outros
-*.swp
-*.swo
